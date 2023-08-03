@@ -74,8 +74,8 @@ function changeCurrency() {
     }
 
     if (currencySelect.valor == "bitcoin") {
-        currencyName.innerHTML = "Bitcoin"
-       currencyImage.src = "./assets/bitcoin.png"
+       currencyName.innerHTML = "Bitcoin"
+       currencyImage.src = "./assets/bitcoin1.png"
     }
 
 
