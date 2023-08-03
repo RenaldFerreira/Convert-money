@@ -60,8 +60,6 @@ function changeCurrency() {
     if (currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dólar Americano"
         currencyImage.src = "./assets/dolar.png"
-
-
     }
     if (currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
@@ -72,13 +70,10 @@ function changeCurrency() {
         currencyName.innerHTML = "Libra"
         currencyImage.src = "./assets/libra.png"
     }
-
-    if (currencySelect.valor == "bitcoin") {
-       currencyName.innerHTML = "Bitcoin"
-       currencyImage.src = "./assets/bitcoin1.png"
+    if(currencySelect.value == "bitcoin"){
+        currencyImage.src = "./assets/bitcoin1.png"
+        currencyName.innerHTML = "Bitcoin"
     }
-
-
     convertValues()
 
 }
