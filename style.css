@@ -103,3 +103,20 @@ section{
     font-weight: 700;
     line-height: 18px;
 }
+@media screen and (max-width:560px){
+  .logo-convert{
+    display: none;
+  }
+    body{
+        background: #F4F4F4;
+    }
+    main{
+        width: auto;
+        height: auto;
+          background: #F4F4F4;
+          margin: 44px, 24px, 23px, 24px;
+      
+    }
+    
+
+}
